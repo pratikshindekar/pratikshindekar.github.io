@@ -63,6 +63,12 @@ body {
   font-size: 25px;
 }
 
+@media (max-width: 991px) {
+  #description {
+    margin-top: 8%;
+  }
+}
+
 #imp {
   color: #0879fa;
 }
