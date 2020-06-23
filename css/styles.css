@@ -1,0 +1,164 @@
+.custom-nav {
+  background-color: #17202a;
+}
+
+.nav-link {
+  color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 255, 255, 0.5);
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+body {
+  text-align: center;
+  background-color: #212f3d;
+  color: white;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 8%;
+}
+
+#title .container {
+  padding: 2% 10% 5% 10%;
+}
+
+#photo {
+  width: 60%;
+  margin-top: 10%;
+}
+
+.icons {
+  color: #2980b9;
+}
+
+.icons .fa {
+  margin-top: 4%;
+  padding: 2%;
+}
+
+@media (max-width: 991px) {
+  #photo {
+    width: 80%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+#description {
+  color: gray;
+  font-size: 25px;
+}
+
+#imp {
+  color: #2980b9;
+}
+
+.fa-quote-left {
+  color: #2980b9;
+}
+
+.fa-quote-right {
+  color: #2980b9;
+}
+
+#name {
+  margin-top: 30%;
+  font-size: 50px;
+}
+
+@media (max-width: 991px) {
+  #name {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 40px;
+  }
+}
+
+.aboutme-titles {
+  color: #2980b9;
+  text-align: center;
+  margin-top: 2%;
+}
+
+#aboutme .details {
+  font-size: 25px;
+}
+
+@media (max-width: 991px) {
+  #aboutme .details {
+    font-size: 20px;
+  }
+}
+
+#aboutme .card {
+  padding: 2%;
+  background-color: #212f3d;
+}
+
+@media (max-width: 991px) {
+  #aboutme .card {
+    padding: 2%;
+    margin: 3% 0 3% 0;
+  }
+}
+
+#aboutme {
+  background-color: #17202a;
+}
+
+#aboutme .container {
+  text-align: start;
+  padding: 2% 10% 5% 10%;
+}
+
+#skills .container-fluid {
+  text-align: start;
+  padding: 2% 10% 5% 10%;
+}
+
+#skills .skill {
+  padding: 1% 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+@media (max-width: 991px) {
+  #skills .skill {
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+}
+
+.card {
+  background-color: #212f3d;
+}
+
+@media (max-width: 991px) {
+  .card {
+    margin: 3% 0 3% 0;
+  }
+}
+
+#projects .container-fluid {
+  padding: 2% 10% 5% 10%;
+  background-color: #17202a;
+}
+
+footer {
+  background-color: #17202a;
+  padding: 2%;
+}
